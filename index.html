@@ -17,9 +17,11 @@
 
   <body>
     <!-- nav start -->
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light" id="navigation">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img src="svg/logo.svg" alt="logo"
+        /></a>
         <button
           class="navbar-toggler d-lg-none"
           type="button"
@@ -32,47 +34,62 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page"
-                >Home <span class="visually-hidden">(current)</span></a
-              >
+              <a class="nav-link" href="#">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">about us</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="dropdownId"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Dropdown</a
-              >
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Action 1</a>
-                <a class="dropdown-item" href="#">Action 2</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">works</a>
             </li>
           </ul>
-          <form class="d-flex my-2 my-lg-0">
-            <input
-              class="form-control me-sm-2"
-              type="text"
-              placeholder="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
+          <a href="#" class="hireme button">
+            <span>hire me</span><img src="svg/mail.svg" alt="mail"/>
+          </a>
         </div>
       </div>
     </nav>
-
     <!-- nav end -->
-    <main></main>
+    <main>
+      <!-- banner start -->
+      <section id="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="banner-text">
+                <h6 class="hotline">david flash</h6>
+                <h1>Hello, my name’s David. I’m graphic designer.</h1>
+                <div class="bnrbtn">
+                  <a href="#" class="button active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                      <path d="M1.33331 3.99999C1.33331 3.64637 1.47379 3.30723 1.72384 3.05718C1.97389 2.80713 2.31302 2.66666 2.66665 2.66666H13.3333C13.6869 2.66666 14.0261 2.80713 14.2761 3.05718C14.5262 3.30723 14.6666 3.64637 14.6666 3.99999V12C14.6666 12.3536 14.5262 12.6927 14.2761 12.9428C14.0261 13.1928 13.6869 13.3333 13.3333 13.3333H2.66665C2.31302 13.3333 1.97389 13.1928 1.72384 12.9428C1.47379 12.6927 1.33331 12.3536 1.33331 12V3.99999Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M1.33331 5.33334L6.33398 9.33401C6.80684 9.71235 7.39439 9.91848 7.99998 9.91848C8.60557 9.91848 9.19312 9.71235 9.66598 9.33401L14.6666 5.33334" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>contact me</span>
+                  </a>
+                  <a href="#" class="button download">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                      <path d="M9.99999 12.5L13.3333 9.16667M9.99999 12.5V2.5V12.5ZM9.99999 12.5L6.66666 9.16667L9.99999 12.5Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M1.66666 14.1667L2.18416 16.2375C2.27428 16.5981 2.48234 16.9182 2.77526 17.1469C3.06819 17.3757 3.42916 17.4999 3.80082 17.5H16.1992C16.5708 17.4999 16.9318 17.3757 17.2247 17.1469C17.5176 16.9182 17.7257 16.5981 17.8158 16.2375L18.3333 14.1667" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>download cv</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="bnrimg"><img src="svg/avatar.svg" alt="avatar"/></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+    </main>
     <footer>
       <!-- place footer here -->
     </footer>
