@@ -1,0 +1,66 @@
+/* extra small device start */
+@media (max-width: 575.98px) {
+  /* nav start */
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  #navigation .navbar-nav .nav-item .nav-link {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  #navigation .cmn-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .cmn-btn .parent .child {
+    align-items: center;
+  }
+  #banner {
+    padding: 30px 0 26px;
+  }
+  /* nav end */
+  /* banner start */
+  #banner .banner-text {
+    text-align: center;
+  }
+  #banner .banner-text h1 {
+    font-size: 44px;
+    line-height: 64px;
+    margin-top: 21px;
+  }
+  #banner .banner-text .bnrbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #banner .banner-text .bnrbtn .bannerbtn {
+    width: fit-content;
+  }
+  .bnrimg {
+    margin-top: 15px;
+  }
+  .bnrimg img {
+    width: 100%;
+  }
+  /* banner end */
+  /* counter start */
+  #counter {
+    padding: 64px 0 99px;
+}
+  #counter .countwraper{
+    row-gap: 50px;
+  }
+  #counter .countbox h2 {
+    font-size: 46px;
+  }
+  /* counter end */
+}
+/* extra small device end */

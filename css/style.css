@@ -93,9 +93,17 @@ a {
   line-height: 32px;
   letter-spacing: 0.5px;
 }
+body{
+  position: relative;
+}
 /* common css end */
 /* nav start */
 #navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   padding: 30px 0;
   background-color: #f9f9fc;
 }
@@ -127,7 +135,7 @@ a {
 /* nav end */
 /* banner start */
 #banner {
-  padding: 16px 0 44px;
+  padding: 116px 0 44px;
   background-color: #f9f9fc;
 }
 #banner .banner-text {
