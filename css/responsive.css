@@ -245,6 +245,7 @@
   #footer .footbox p {
     margin-top: 14px;
     text-align: center;
+    margin: 0 auto;
   }
   #footer .footbox .footcontact {
     margin: 64px 0 0;
