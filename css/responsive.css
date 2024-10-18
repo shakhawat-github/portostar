@@ -1,5 +1,15 @@
 /* extra small device start */
 @media (max-width: 575.98px) {
+  /* common css start */
+  .heading {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.17px;
+  }
+  .note {
+    font-size: 15px;
+  }
+  /* common css end */
   /* nav start */
   .navbar-toggler:focus {
     box-shadow: none;
@@ -54,13 +64,205 @@
   /* counter start */
   #counter {
     padding: 64px 0 99px;
-}
-  #counter .countwraper{
+  }
+  #counter .countwraper {
     row-gap: 50px;
   }
   #counter .countbox h2 {
     font-size: 46px;
   }
   /* counter end */
+  /* service start */
+  #service {
+    padding-bottom: 64px;
+  }
+  #service .txt .heading {
+    padding: 12px 0 6px;
+    margin-bottom: 0;
+  }
+  #service .txt {
+    padding-bottom: 27px;
+  }
+  #service .sericewraper {
+    row-gap: 30px;
+  }
+  #service .card {
+    padding: 51px 30px 46px 30px;
+  }
+  /* service end */
+  /* graphic start */
+  #graphic {
+    padding: 80px 0;
+    z-index: 1;
+  }
+  #graphic .txt {
+    text-align: center;
+  }
+  #graphic .txt h2 {
+    font-size: 44px;
+    margin-top: 14px;
+    line-height: 64px;
+  }
+  #graphic .txt p {
+    margin: 0;
+  }
+  #graphic .txt .graphic-btn {
+    margin-top: 14px;
+  }
+  .graphicimage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    text-align: right;
+  }
+  .graphicimage img {
+    width: 50%;
+  }
+  #graphic .graphicleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 75px;
+  }
+  /* graphic end */
+  /* brand start */
+  #brand {
+    padding: 67px 0;
+  }
+  #brand .brandslider .slide {
+    position: sticky;
+    top: 0;
+    left: 0;
+    animation-play-state: paused;
+    display: grid;
+    column-gap: 25px;
+    row-gap: 22px;
+    grid-template-columns: 1fr 1fr;
+  }
+  #brand .brandslider .slide img {
+    width: 100%;
+  }
+  #brand .brandslider .slide:last-child {
+    display: none;
+  }
+  #brand .brandslider {
+    height: auto;
+    overflow: hidden;
+  }
+  /* brand end */
+  /* portfolio start */
+  #portfolio .title {
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+  }
+  #portfolio .title .left,
+  #portfolio .title .right {
+    width: 100%;
+  }
+  #portfolio .title .left img {
+    top: -45%;
+    left: 52%;
+  }
+  #portfolio .title .left h2 {
+    font-weight: 600;
+  }
+  #portfolio .portrow {
+    margin-top: 30px;
+    row-gap: 30px;
+  }
+  #portfolio .card .image {
+    height: 245px;
+  }
+  #portfolio {
+    padding-bottom: 64px;
+  }
+  /* portfolio end */
+  /* testimonial start */
+  #test {
+    padding: 64px 0px;
+  }
+  #test .testbox {
+    margin-top: 38px;
+  }
+  #test .testbox .item {
+    position: unset;
+  }
+  #test .testwraper {
+    margin-top: 38px;
+    row-gap: 30px;
+  }
+  #test .testbox {
+    margin: 0;
+  }
+  #test .testbox .item .profile {
+    margin-top: 10px;
+  }
+  #test .testbox .item .profile .left {
+    column-gap: 10px;
+  }
+  #test .testbox .item .profile .left .pic {
+    width: 55px;
+    height: 55px;
+  }
+  /* testimonial end */
+  /* connect start */
+  #connect {
+    padding: 64px 0;
+  }
+  #connect .connectbox h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.19px;
+  }
+  #connect .connectbox .shap {
+    width: 100%;
+  }
+  /* connect end */
+  /* footer start */
+  #footer .footbg {
+    padding: 77px 0 0;
+    max-width: 95%;
+  }
+  #footer .footrwaper {
+    padding: 0;
+  }
+  .footbox .footbox {
+    text-align: center;
+  }
+  .footbox .footlogo {
+    max-width: 209px;
+  }
+  #footer .footbox p {
+    margin-top: 14px;
+  }
+  #footer .footbox .footcontact {
+    margin: 64px 0 0;
+  }
+  #footer .footbox .footcontact li a {
+    justify-content: center;
+  }
+  #footer .footbox .footsocial {
+    margin: 26px 0 0;
+    justify-content: center;
+  }
+  #footer .copyright {
+    margin-top: 51px;
+    padding: 36px 0 40px;
+    flex-direction: column;
+  }
+  #footer .copyright .footnav {
+    column-gap: 21px;
+  }
+  #footer .copyright .footnav li a {
+    font-size: 13px;
+  }
+  #footer .copyright .allright {
+    margin-top: 23px;
+    text-align: center;
+  }
+  /* footer end */
 }
 /* extra small device end */

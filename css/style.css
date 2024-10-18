@@ -93,7 +93,7 @@ a {
   line-height: 32px;
   letter-spacing: 0.5px;
 }
-body{
+body {
   position: relative;
 }
 /* common css end */
@@ -331,8 +331,6 @@ body{
   position: relative;
   height: 70px;
   overflow: hidden;
-  animation: name duration timing-function delay iteration-count direction
-    fill-mode;
 }
 #brand .brandslider .slide {
   position: absolute;
@@ -383,6 +381,13 @@ body{
 #portfolio .title .left,
 #portfolio .title .right {
   width: 50%;
+  position: relative;
+}
+#portfolio .title .left img {
+  position: absolute;
+  top: -35%;
+  left: -2%;
+  z-index: -1;
 }
 #portfolio .title .right p {
   max-width: 557px;
@@ -419,6 +424,14 @@ body{
 }
 #test .title {
   text-align: center;
+  position: relative;
+  z-index: 1;
+}
+#test .title .testshap {
+  position: absolute;
+  top: -23%;
+  left: 47%;
+  z-index: -1;
 }
 #test .title h2 {
   margin-top: 12px;
