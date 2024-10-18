@@ -1,0 +1,26 @@
+<svg width="574" height="683" viewBox="0 0 574 683" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M141.071 31.3969C140.036 31.1195 138.931 31.4155 138.173 32.1734C137.416 32.9312 137.12 34.0359 137.397 35.0711L159.139 116.213C159.416 117.248 160.225 118.057 161.26 118.335C162.295 118.612 163.4 118.316 164.158 117.558L223.558 58.158C224.316 57.4001 224.612 56.2955 224.335 55.2602C224.057 54.2249 223.249 53.4163 222.213 53.1389L141.071 31.3969Z" fill="#F1F0FB" stroke="#F1F0FB" stroke-width="6" stroke-linejoin="round"/>
+<path d="M47.2425 542.504C47.3218 541.974 47.1123 541.442 46.693 541.108C46.2736 540.774 45.7081 540.69 45.2095 540.886L9.19094 555.068C8.6923 555.265 8.33628 555.712 8.257 556.242C8.17771 556.772 8.3872 557.304 8.80655 557.638L39.0979 581.74C39.5173 582.073 40.0828 582.158 40.5814 581.962C41.08 581.765 41.4361 581.318 41.5153 580.788L47.2425 542.504Z" fill="#F1F0FB" stroke="#F1F0FB" stroke-width="3" stroke-linejoin="round"/>
+<mask id="mask0_4129_3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="158" y="184" width="416" height="499">
+<rect x="158" y="184" width="416" height="499" fill="#5E3BEE"/>
+</mask>
+<g mask="url(#mask0_4129_3)">
+<mask id="mask1_4129_3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="166" y="188" width="505" height="506">
+<circle cx="418.809" cy="441.063" r="251.606" transform="rotate(-40.5478 418.809 441.063)" fill="#F1F0FB" stroke="white"/>
+</mask>
+<g mask="url(#mask1_4129_3)">
+<line x1="-50.6591" y1="516.348" x2="579.467" y2="-22.741" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="-19.8778" y1="552.328" x2="610.248" y2="13.2385" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="9.23967" y1="586.362" x2="639.366" y2="47.2731" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="39.189" y1="621.369" x2="669.315" y2="82.2799" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="66.6426" y1="653.459" x2="696.768" y2="114.37" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="97.424" y1="689.438" x2="727.55" y2="150.349" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="126.541" y1="723.473" x2="756.667" y2="184.384" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="156.491" y1="758.48" x2="786.617" y2="219.391" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="183.944" y1="790.569" x2="814.07" y2="251.48" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="214.726" y1="826.549" x2="844.852" y2="287.46" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="243.843" y1="860.583" x2="873.969" y2="321.494" stroke="#F1F0FB" stroke-width="2"/>
+<line x1="273.793" y1="895.591" x2="903.918" y2="356.502" stroke="#F1F0FB" stroke-width="2"/>
+</g>
+</g>
+</svg>
