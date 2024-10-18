@@ -88,6 +88,11 @@
   }
   #service .card {
     padding: 51px 30px 46px 30px;
+    max-width: 100%;
+  }
+  #service .card  .note{
+    max-width: 295px;
+    margin: 0 auto;
   }
   /* service end */
   /* graphic start */
