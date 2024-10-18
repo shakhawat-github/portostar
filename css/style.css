@@ -42,29 +42,53 @@ a {
   line-height: 32px;
   letter-spacing: 0.5px;
 }
-.button {
-  display: flex;
-  column-gap: 7px;
-  align-items: center;
+.cmn-btn {
+  background-color: #5e3bee;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  border-radius: 50px;
-  background: #5e3bee;
-  padding: 11px 22px;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-}
-.button2 {
   width: 204px;
   height: 70px;
   border-radius: 50px;
-  background: #5e3bee;
+  position: relative;
+  overflow: hidden;
+}
+.cmn-btn img {
+  padding-right: 9px;
+}
+.cmn-btn .parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  transform: translate(-50%, -9%);
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.cmn-btn .parent .child {
+  display: flex;
+  width: max-content;
+}
+.cmn-btn:hover .parent {
+  transform: translate(-50%, -87%);
+  -webkit-transform: translate(-50%, -87%);
+  -moz-transform: translate(-50%, -87%);
+  -ms-transform: translate(-50%, -87%);
+  -o-transform: translate(-50%, -87%);
+}
+.card-title{
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
 }
 /* common css end */
 /* nav start */
@@ -83,6 +107,19 @@ a {
   line-height: 22px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+#navigation .cmn-btn {
+  width: 124px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#navigation .cmn-btn img {
+  padding-right: 0;
+  width: 20px;
+  padding-left: 7px;
 }
 /* nav end */
 /* banner start */
@@ -202,6 +239,9 @@ a {
 }
 /* counter end */
 /* service start */
+#service {
+  padding-bottom: 140px;
+}
 #service .txt {
   padding-bottom: 64px;
   text-align: center;
@@ -230,13 +270,122 @@ a {
   text-align: center;
 }
 #service .card .card-body .card-title {
-  color: #000;
   text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0.5px;
   padding: 37px 0 9px;
   margin: 0;
 }
 /* service end */
+/* graphic start */
+#graphic {
+  padding: 109px 0 113px;
+  background: #f9f9fc;
+}
+#graphic .txt h2 {
+  color: #333;
+  font-size: 60px;
+  font-weight: 700;
+  max-width: 482px;
+  margin-top: 22px;
+  line-height: 78px;
+}
+#graphic .txt p {
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 0;
+  max-width: 584px;
+}
+#graphic .txt .graphic-btn {
+  margin-top: 30px;
+}
+
+/* graphic end */
+/* brand start */
+#brand {
+  padding: 129px 0;
+}
+#brand .brandslider {
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+#brand .brandslider .slide {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  display: flex;
+  column-gap: 83px;
+  animation: brandslide1 20s linear infinite;
+  -webkit-animation: brandslide1 20s linear infinite;
+}
+@keyframes brandslide1 {
+  0% {
+    top: 0;
+    right: -100%;
+  }
+  100% {
+    top: 0;
+    right: 100%;
+  }
+}
+#brand .brandslider .slide:last-child {
+  right: -100%;
+  animation: brandslide2 20s linear 10s infinite;
+  -webkit-animation: brandslide2 20s linear 10s infinite;
+}
+@keyframes brandslide2 {
+  0% {
+    top: 0;
+    right: -100%;
+  }
+  100% {
+    top: 0;
+    right: 100%;
+  }
+}
+#brand .brandslider:hover .slide {
+  animation-play-state: paused;
+}
+/* brand end */
+/* portfolio start */
+#portfolio {
+  padding-bottom: 132px;
+}
+#portfolio .title {
+  margin-top: 50px;
+  display: flex;
+}
+#portfolio .title .left,
+#portfolio .title .right {
+  width: 50%;
+}
+#portfolio .title .right p {
+  max-width: 557px;
+  margin-top: 10px;
+}
+#portfolio .portrow {
+  margin-top: 51px;
+  row-gap: 35px;
+}
+#portfolio .card {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  overflow: hidden;
+  border: none;
+}
+#portfolio .card .image {
+  height: 290px;
+  background: #c4c4c4;
+}
+#portfolio .card .card-body {
+  padding: 34px 0 46px 47px;
+}
+#portfolio .card .card-body 
+/* portfolio end */
