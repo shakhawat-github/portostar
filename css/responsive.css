@@ -90,7 +90,7 @@
     padding: 51px 30px 46px 30px;
     max-width: 100%;
   }
-  #service .card  .note{
+  #service .card .note {
     max-width: 295px;
     margin: 0 auto;
   }
@@ -239,9 +239,12 @@
   }
   .footbox .footlogo {
     max-width: 209px;
+    margin: 0 auto;
+    display: block;
   }
   #footer .footbox p {
     margin-top: 14px;
+    text-align: center;
   }
   #footer .footbox .footcontact {
     margin: 64px 0 0;
@@ -260,6 +263,7 @@
   }
   #footer .copyright .footnav {
     column-gap: 21px;
+    justify-content: center;
   }
   #footer .copyright .footnav li a {
     font-size: 13px;
